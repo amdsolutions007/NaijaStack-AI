@@ -41,6 +41,7 @@ export interface VerificationResponse {
     reference: string;
     amount: number;
     currency: string;
+    paid_at?: string;
     customer: {
       email: string;
     };
